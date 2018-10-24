@@ -46,6 +46,7 @@
 .robot {position: relative;
   left: 50%;
   margin-left: -160px;
+  margin-top: +60px;
     width: 320px;
     height: 320px;
     background-image:url("ziggy.png");
@@ -165,29 +166,41 @@ p:last-child:after {
     opacity:0;
   }
 }
-#talkbubble {
-   width: 120px;
-   height: 80px;
-   background: #007700;
-   position: relative;
-   left: 80%;
-   border-radius: 10px;
-   margin: 100px auto;
-   -webkit-transition: All 1s ease-in-out;
+.bubble
+{position: relative;
+left: 85%;
+margin-left: -250px;
+margin-top: -275px;
+width: 10px;
+height: 40px;
+padding: 0px;
+background: #007700;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+transition: 1s ease-in-out;
 }
 
-#talkbubble:before {
-   content:"";
-   position: absolute;
-   right: 100%;
-   top: 26px;
-   width: 0;
-   height: 0;
-   border-top: 13px solid transparent;
-   border-right: 26px solid #007700;
-   border-bottom: 13px solid transparent;
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 20px 7px 0;
+border-color: transparent #007700;
+display: block;
+width: 0;
+z-index: 1;
+left: -20px;
+top: 9px;
 }
-#talkbubble:hover {
-  width: 250px;
-  height: 400px;
+.bubble:hover
+{position: relative;
+width: 250px;
+height: 350px;
+padding: 0px;
+background: #007700;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
