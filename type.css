@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Gravitas+One|Vast+Shadow|Smokum|Limelight|Holtwood+One+SC|Goblin+One|Abril+Fatface|Rye|Sancreek|Six+Caps|Stint+Ultra+Expanded|Ultra);
+
+
+.asset{font-family: 'Asset', cursive;}
+.poiret{font-family: 'Poiret One', cursive;}
+.gravitas{font-family: 'Gravitas One', cursive;}
+.vast{font-family: 'Vast Shadow', cursive;}
+.smokum{font-family: 'Smokum', cursive;}
+.limelight{font-family: 'Limelight', cursive;}
+.holtwood{font-family: 'Holtwood One SC', serif;}
+.uni{font-family: 'UnifrakturCook', cursive;}
+.goblin{font-family: 'coronette', cursive;}
+.arbutus{font-family: 'Arbutus', cursive;}
+.germania{font-family: 'Germania One', cursive;}
+.bevan{font-family: 'Bevan', cursive;}
+.abril{font-family: 'Abril Fatface', cursive;}
+.montserrat{font-family: 'Montserrat', sans-serif;}
+.rye{font-family: 'Rye', cursive;}
+.sancreek{font-family: 'Sancreek', cursive;}
+.raleway{font-family: 'Raleway', sans-serif;}
+.stint{font-family: 'Stint Ultra Expanded', cursive;}
+.sixcaps{font-family: 'Six Caps', sans-serif;}
+.ultra{font-family: 'Ultra', serif;}
+.hand{font-family: 'coronette', serif;}
+.chap{font-family: "chaparral-pro", sans-serif;}
+a{color:#777; padding: 0 0 2px 0; text-decoration: underline;}
+a:hover{color:#111x`;}
+
+.center-text{text-align: center;}
+#lead{margin: 3em 0;}
+
+p{line-height: 1.75em;}
+ol{list-style: lower-roman; margin-left: 20px;}
+ol li{margin: 10px 0;}
+
+hr{height: 1px; background-color: black;}
