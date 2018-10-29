@@ -1,6 +1,6 @@
 p,a,li{
 
-    font-family: "chaparral-pro", sans-serif;
+    font-family: 'Slabo 27px', serif;
     font-size: 16px;
 
 }
@@ -16,7 +16,7 @@ header{
 }
 
 div .col-sm-3 h3{
-  font-family: "coronette",sans-serif;
+  font-family: 'Slabo 27px', serif;
 }
 header+h1{
 	text-align: center;
@@ -85,7 +85,7 @@ header+h1{
 #logo a{
   text-decoration: none !important;
   font-size: 72px;
-  font-family: "coronette", sans-serif !important;
+  font-family: 'Slabo 27px', serif;
   color:#aaa;
   transition: 0.3s all;
 }
@@ -195,7 +195,7 @@ nav li{
 	display: inline;
 	text-indent: 0;
 	margin: 0 1em;
-  font-family: "coronette",sans-serif;
+  font-family: 'Slabo 27px', serif;
 }
 
 
@@ -368,5 +368,5 @@ header>span.two_seconds6{ font-size:15em;-webkit-animation-duration: 4s;}
 #logo a{
   text-decoration: none !important;
   font-size: 72px;
-  font-size: "coronette", sans-serif !important;
+  font-size: 'Slabo 27px', serif;
 }
