@@ -1,7 +1,8 @@
-.view1 {
-   width: 306.5px;
-   height: 396.6px;
+.view {
+   width: 323.725px;
+   height: 270.03px;
    margin: 10px;
+   float: left;
    border: 10px solid #fff;
    overflow: hidden;
    position: relative;
@@ -12,79 +13,10 @@
    cursor: default;
    background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
-.view2 {
-   width: 320px;
-   height: 281.75px;
-   margin: 10px;
-   border: 10px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-   -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
-   cursor: default;
-   background: #fff url(../images/bgimg.jpg) no-repeat center center;
-}
-.view3 {
-   width: 303.5px;
-   height: 395px;
-   margin: 10px;
-   border: 10px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-   -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
-   cursor: default;
-   background: #fff url(../images/bgimg.jpg) no-repeat center center;
-}
-.view4 {
-   width: 244.35px;
-   height: 190.35px;
-   margin: 10px;
-   border: 10px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-   -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
-   cursor: default;
-   background: #fff url(../images/bgimg.jpg) no-repeat center center;
-}
-.view5 {
-   width: 371.5px;
-   height: 181.5px;
-   margin: 10px;
-   border: 10px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-   -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
-   cursor: default;
-   background: #fff url(../images/bgimg.jpg) no-repeat center center;
-}
-.view6 {
-   width: 396.5px;
-   height: 175px;
-   margin: 10px;
-   border: 10px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-   -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
-   cursor: default;
-   background: #fff url(../images/bgimg.jpg) no-repeat center center;
-}
-.view1 .view2 .view3 .view4 .view5 .view6 .mask,.view1 .view2 .view3 .view4 .view5 .view6 .content {
-   width: 300px;
-   height: 200px;
+
+.view .mask,.view .content {
+   width: 323.725px;
+   height: 270.03px;
    position: absolute;
    overflow: hidden;
    top:0;
