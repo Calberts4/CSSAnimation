@@ -1,19 +1,19 @@
-.robot { border: solid red 5px;
+.robot {
   z-index: 100;
    width: 96px;
    height: 96px;
-   background-image:"picky.png";
+   background-image:url("pink.png");
 
-   -webkit-animation: play 2s steps(4) infinite;
-      -moz-animation: play 2s steps(4) infinite;
-       -ms-animation: play 2s steps(4) infinite;
-        -o-animation: play 2s steps(4) infinite;
-           animation: play 2s steps(4) infinite;
+   -webkit-animation: play 4s steps(10) infinite;
+      -moz-animation: play 4s steps(10) infinite;
+       -ms-animation: play 4s steps(10) infinite;
+        -o-animation: play 4s steps(10) infinite;
+           animation: play 4s steps(10) infinite;
 }
 
 @-webkit-keyframes play {
   from { background-position:    0px; }
-    to { background-position: -96px; }
+    to { background-position: -960px; }
 }
 
 @-moz-keyframes play {
@@ -33,5 +33,5 @@
 
 @keyframes play {
   from { background-position:    0px; }
-    to { background-position: -384px; }
+    to { background-position: -960px; }
 }
