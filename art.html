@@ -21,20 +21,39 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family:'Slabo 27px', serif;}
 </style>
+<style>
+.element {
+  display: inline-block;
+  background-color: #DCDCDC;
+  height: 25px;
+  width: 75px;
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  animation: skew 2s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: .7;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+</style>
 <body>
-  <!-- Home page -->
-<div class="m-scene" id="main">
-  <div class="m-header scene_element scene_element--fadein">
-  </div>
-  <div class="m-page scene_element scene_element--fadeinup">
-  </div>
-</div
 <!-- !PAGE CONTENT! -->
   <!-- Header -->
     <h1><font size="+32">Artwork By Cecilee Alberts</h1></font>
-<center><a href="index.html" class="previous">&laquo; Home</a>
-<div class="robot"></div><!--<IMG SRC="pinky2.gif">-->
-<a href="about-me.html" class="next"> About Me &raquo;</a></center>
+    <center><div class="element"><a href="index.html"><font size="+1">Home</font></a></div>
+    <div class="robot"></div><!--<IMG SRC="pinky2.gif">-->
+      <div class="element"><a href="about-me.html"><font size="+1">About Me</font></a></center></div>
     <body>
   </header>
     </div>

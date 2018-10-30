@@ -35,6 +35,32 @@
     $('#all').fadeIn(800);
 	});>
 </script>
+<style>
+.element {
+  display: inline-block;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: .7;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+</style>
 
   </head>
   <section class="main">
@@ -43,7 +69,7 @@
   						<div class="ch-item">
   							<div class="ch-info">
   								<h3>ArtWork</h3>
-  								<p>By Me <a href="art.html">View Page</a></p>
+  								<p>By Me <div class="element"><a href="art.html">View Page</a></p></div>
   							</div>
   							<div class="ch-thumb ch-img-1"></div>
   						</div>
@@ -52,7 +78,7 @@
   						<div class="ch-item">
   							<div class="ch-info">
   								<h3>About Me</h3>
-  								<p>and how to contact <a href="about-me.html">View Page</a></p>
+  								<p>and how to contact <div class="element"><a href="about-me.html">View Page</a></p></div>
   							</div>
   							<div class="ch-thumb ch-img-2"></div>
   						</div>
@@ -60,6 +86,7 @@
   				</ul>
   			</section>
   <body>
+
 </header>
 
 <center><h1>Cecilee Alberts</h1>

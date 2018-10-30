@@ -15,23 +15,42 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family:'Slabo 27px', serif;}
 </style>
-  <!-- Home page -->
-<div class="m-scene" id="main">
-  <div class="m-header scene_element scene_element--fadein">
-  </div>
-  <div class="m-page scene_element scene_element--fadeinup">
-  </div>
-</div>
+<style>
+.element {
+  z-index: 100;
+  display: inline-block;
+  background-color: #DCDCDC;
+  height: 25px;
+  width: 75px;
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  animation: skew 2s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: .7;
+}
 
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+</style>
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:25px">
   <!-- Header -->
 <center><header id="portfolio">
     <div class="w3-container">
     <h1><b>Cecilee Alberts</b></h1>
-    <center><a href="index.html" class="previous">&laquo; Home</a>
+    <div class="element"><center><a href="index.html"><font size="+1">Home</font></a></div>
     <div class="robot"></div><!--<IMG SRC="pinky2.gif">-->
-      <a href="art.html" class="next"> Artwork &raquo;</a></center>
+      <div class="element"><a href="art.html"><font size="+1">Artwork</font></a></center></div>
   </header>
   <!-- Images of Me -->
 <center><img src="images/cecilee.JPG"style="width:15%">
