@@ -48,12 +48,12 @@
 }
 
 .ch-img-1 {
-	background-image: url(/images/paint-spatter-pink.jpg);
+	background-image: url(images/paint-spatter-pink.jpg);
 	z-index: 12;
 }
 
 .ch-img-2 {
-	background-image: url(/images/paint-spatter-blue.jpg);
+	background-image: url(images/paint-spatter-blue.jpg);
 	z-index: 11;
 }
 
